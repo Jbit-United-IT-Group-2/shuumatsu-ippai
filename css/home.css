@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sandoll-andante,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wrap {
+  width: 1920px;
+  height: 100vh;
+  background-color: aqua;
+}
+
+header {
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  top: 10px;
+}
+
+.main_logo {
+  width: 200px;
+  height: 200px;
+  background-image: url('../img/logo/LOGO_WHITE.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.main_banner {
+  position: relative;
+  width: 50%;
+  height: 100vh;  
+}
+
+.main_banner:hover .main_copi,
+.main_banner:hover .main_select {
+  transform: translateY(-30px);
+}
+
+
+#to_soju {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main_page/L.png');
+}
+#to_soju:hover {
+  background-image: url('../img/main_page/L.png');
+}
+
+#to_beer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main_page/R.png');
+}
+#to_beer:hover {
+  background-image: url('../img/main_page/R.png');
+}
+
+.main_copi {
+  position: absolute;
+  font-size: 72pt;
+  left: 40px;
+  bottom: 200px;
+  transition: 0.5s;
+}
+
+.main_select {
+  position: absolute;
+  font-size: 30pt;
+  left: 40px;
+  bottom: 60px;
+  transition: 0.5s;
+}
