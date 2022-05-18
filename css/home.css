@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 #wrap {
   width: 1920px;
   height: 100vh;
@@ -56,6 +61,7 @@ main {
 #to_beer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main_page/R.png');
 }
+
 #to_beer:hover {
   background-image: url('../img/main_page/R.png');
 }
