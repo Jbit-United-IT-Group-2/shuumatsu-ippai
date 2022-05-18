@@ -6,20 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>참이슬 fresh</title>
 
-    <link rel="stylesheet" href="../css/soju.css">
+    <link rel="stylesheet" href="../css/soju.css" />
     <script>
-    (function(d) {
-      var config = {
-        kitId: 'auw1psa',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
+      (function (d) {
+        var config = {
+            kitId: 'auw1psa',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
     </script>
   </head>
 
   <body>
+    <!-- message : 소주팀도 열심히 잘 하고 있네!! -->
+    <!-- Alarm test -->
     <div id="wrap">
       <section id="soju_menu">
         <div class="soju_nav nav1">
@@ -55,7 +78,7 @@
           </div>
           <div class="soju_icon_p6">
             <a href="p6.html">
-              <img src="../img/nav icon/soju/WONSOJU.png" alt="원소주 버튼">
+              <img src="../img/nav_icon/soju/WONSOJU.png" alt="원소주 버튼">
             </a>
           </div>
         </div>
@@ -66,24 +89,16 @@
         <div class="">
         <ul>
           <li>
-            <a href="" class="soju_main_nav">
-              HOME
-            </a>
+            <a href="" class="soju_main_nav"> HOME </a>
           </li>
           <li>
-            <a href="" class="soju_main_nav">
-              ABOUT
-            </a>
+            <a href="" class="soju_main_nav"> ABOUT </a>
           </li>
           <li>
-            <a href="" class="soju_main_nav">
-              ALCOHOL
-            </a>
+            <a href="" class="soju_main_nav"> ALCOHOL </a>
           </li>
           <li>
-            <a href="" class="soju_main_nav">
-              PRODUCT
-            </a>
+            <a href="" class="soju_main_nav"> PRODUCT </a>
           </li>
         </ul>
       </div>
