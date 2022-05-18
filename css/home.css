@@ -26,7 +26,6 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-
 }
 
 main {
@@ -66,7 +65,7 @@ main {
   font-size: 72pt;
   left: 40px;
   bottom: 200px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .main_select {
@@ -74,5 +73,5 @@ main {
   font-size: 30pt;
   left: 40px;
   bottom: 60px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
