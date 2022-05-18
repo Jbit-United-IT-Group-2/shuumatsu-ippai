@@ -1,11 +1,6 @@
 /* 소주 파트에서 쓰일 스타일은 여기에~ */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
+@font-face {
   font-family: sandoll-achim, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -24,32 +19,174 @@ body {
   font-family: sandoll-myeongjoneo1, sans-serif;
   font-weight: 500;
   font-style: normal;
+  src: url();
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: calc(100% - 200px);
+  height: 100%;
+  position: relative;
+  /* background-color: aquamarine; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 #wrap {
-  width: 1920px;
+  width: 100%;
   height: 3030px;
 }
 
+/* nav layout */
 #soju_menu {
   width: 200px;
   height: 1080px;
   position: fixed;
+  right: 0;
+  z-index: 10;
 }
 
-.soju_nav1 {
+.soju_nav{
   position: absolute;
   width: 100px;
   height: 100%;
 }
 
-.soju_nav2 {
+.nav1 {
+  background-image: url('../img/main_page/L.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  right: 0;
 }
 
-.soju_icon_index {
-  width: 100%;
+.nav2 {
+  background-color: #4D7353;
+}
+
+.soju_logo {
+  display: inline-block;
+  width: 90px;
   height: 100px;
-  background-image: url(../img/logo/LOGO_WHITE.png);
+  background-image: url('../img/logo/LOGO_WHITE.png');
   background-size: contain;
-  background-position: left top;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.soju_icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* main header layout */
+#soju_main_header {
+  font-family: sandoll-myeongjoneo1, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  line-height: 50px;
+  top: 580px;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+}
+
+#soju_main_header div {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#soju_main_header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#soju_main_header ul li {
+  margin: 0 auto;
+}
+
+/* p1 main layout */
+.soju_head {
+  height: 580px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.soju_mid {
+  margin-top: 50px;
+  height: 800px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.soju_bottom {
+  height: 800px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* p1 banner img */
+.p1_home {
+  background-image: url('../img/soju_part/fresh/home.png');
+  background-position: center center;
+}
+
+.p1_about {
+  height: 750px;
+  background-image: url('../img/soju_part/fresh/about.png');
+}
+
+.p1_alcohol{
+  height: 850px;
+  background-image: url('../img/soju_part/fresh/alcohol.png');
+}
+
+.p1_product {
+  background-image: url('../img/soju_part/fresh/product.png');
+}
+
+/* p2 banner img */
+.p2_home {
+  background-image: url('../img/soju_part/jinro/BANNER.png');
+}
+
+.p2_about {
+  background-image: url('../img/soju_part/jinro/ABOUT.png');
+}
+
+.p2_alcohol{
+  background-image: url('../img/soju_part/jinro/alcohol.png');
+}
+
+.p2_product {
+  background-image: url('../img/soju_part/jinro/PRODUCT.png');
+}
+
+/* p3 banner img */
+.p3_home {
+  background-image: url('../img/soju_part/cheoum/banner.png');
+}
+
+.p3_about {
+  background-image: url('../img/soju_part/cheoum/about.png');
+}
+
+.p3_alcohol{
+  background-image: url('../img/soju_part/cheoum/alcohol.png');
+}
+
+.p3_product {
+  background-image: url('../img/soju_part/cheoum/product.png');
 }
