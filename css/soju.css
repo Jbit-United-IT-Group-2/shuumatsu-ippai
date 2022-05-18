@@ -1,1 +1,55 @@
 /* 소주 파트에서 쓰일 스타일은 여기에~ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sandoll-achim, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: sandoll-achim, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-family: sandoll-achim, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-family: sandoll-myeongjoneo1, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-family: sandoll-myeongjoneo1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: sandoll-myeongjoneo1, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#wrap {
+  width: 1920px;
+  height: 3030px;
+}
+
+#soju_menu {
+  width: 200px;
+  height: 1080px;
+  position: fixed;
+}
+
+.soju_nav1 {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+}
+
+.soju_nav2 {
+}
+
+.soju_icon_index {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/logo/LOGO_WHITE.png);
+  background-size: contain;
+  background-position: left top;
+}
