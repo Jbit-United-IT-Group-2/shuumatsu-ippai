@@ -190,3 +190,54 @@ a {
 .p3_product {
   background-image: url('../img/soju_part/cheoum/product.png');
 }
+
+/* p4 banner img */
+.p4_home {
+  background-image: url('');
+}
+
+.p4_about {
+  background-image: url('');
+}
+
+.p4_alcohol{
+  background-image: url('');
+}
+
+.p4_product {
+  background-image: url('');
+}
+
+/* p5 banner img */
+.p5_home {
+  background-image: url('');
+}
+
+.p5_about {
+  background-image: url('');
+}
+
+.p5_alcohol{
+  background-image: url('');
+}
+
+.p5_product {
+  background-image: url('');
+}
+
+/* p6 banner img */
+.p6_home {
+  background-image: url('');
+}
+
+.p6_about {
+  background-image: url('');
+}
+
+.p6_alcohol{
+  background-image: url('');
+}
+
+.p6_product {
+  background-image: url('');
+}
