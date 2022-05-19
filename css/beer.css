@@ -1,1 +1,152 @@
 /* 맥주 파트에서 쓰일 스타일은 여기에~ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 1400px;
+  height: 2000px;
+}
+
+.main-logo {
+  width: 100px;
+  height: 85px;
+}
+
+.cass-ul {
+  list-style-type: none;
+}
+
+#cass-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+.beer-logo:hover{
+  opacity:0.8;
+}
+
+#cass-main {
+  position: relative;
+  color: aliceblue;
+  line-height: 45px;
+}
+
+.main-img {
+  background-image: url(../img/beerpart/beer-1353597.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 1400px;
+  height: 1999px;
+  position: absolute;
+  left: -100px;
+}
+
+.cass-banner-img {
+  width: 1359px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: -100px;
+}
+
+.cass-inpormation-img {
+  position: absolute;
+  top: 399px;
+  left: 200px;
+  width: 1359px;
+  height: 1600px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR&display=swap');
+
+.cass-inpormation {
+  position: absolute;
+  left: 900px;
+  top: 750px;
+  font-size: 1.5rem;
+}
+
+.cass-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.cass-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+.cass-inpormation-text2 {
+  position: absolute;
+  top: 1300px;
+  left: 250px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.sheep {
+  position: absolute;
+  top: 1460px;
+  left: 310px;
+  width: 300px;
+}
+
+.mektea {
+  position: absolute;
+  top: 1460px;
+  left: 730px;
+  width: 300px;
+}
+
+.chicken {
+  position: absolute;
+  top: 1460px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.cass-food-text1 {
+  position: absolute;
+  top: 1800px;
+  left: 385px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cass-food-text2 {
+  position: absolute;
+  top: 1800px;
+  left: 785px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.cass-food-text3 {
+  position: absolute;
+  top: 1800px;
+  right: 60px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
