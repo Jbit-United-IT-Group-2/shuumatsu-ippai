@@ -16,6 +16,23 @@
   height: 85px;
 }
 
+.main-img {
+  background-image: url(../img/main_page/R.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 1400px;
+  height: 1999px;
+  position: absolute;
+  left: -100px;
+}
+
+.beer-logo:hover {
+  opacity: 0.8;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR&display=swap');
+
+/* cass css */
 .cass-ul {
   list-style-type: none;
 }
@@ -28,29 +45,15 @@
   z-index: 10;
 }
 
-.beer-logo:hover{
-  opacity:0.8;
-}
-
 #cass-main {
   position: relative;
-  color: aliceblue;
   line-height: 45px;
 }
 
-.main-img {
-  background-image: url(../img/beerpart/beer-1353597.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 1400px;
-  height: 1999px;
-  position: absolute;
-  left: -100px;
-}
 
 .cass-banner-img {
   width: 1359px;
-  height: 500px;
+  height: 560px;
   position: absolute;
   left: 200px;
   top: -100px;
@@ -58,24 +61,27 @@
 
 .cass-inpormation-img {
   position: absolute;
-  top: 399px;
+  top: 459px;
   left: 200px;
   width: 1359px;
   height: 1600px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR&display=swap');
 
 .cass-inpormation {
   position: absolute;
   left: 900px;
   top: 750px;
   font-size: 1.5rem;
+  color: aliceblue;
 }
 
 .cass-inpormation-text1 {
   margin: 30px;
   font-family: 'Dongle', sans-serif;
+}
+
+.cass-beersize {
+  padding-left: 90px;
 }
 
 .cass-another-font {
@@ -95,7 +101,7 @@
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
-
+  color: aliceblue;
 }
 
 .sheep {
@@ -128,6 +134,7 @@
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
+  color: aliceblue;
 }
 
 .cass-food-text2 {
@@ -138,13 +145,403 @@
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
-
+  color: aliceblue;
 }
 
 .cass-food-text3 {
   position: absolute;
   top: 1800px;
   right: 60px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* seoul css */
+.seoul-ul {
+  list-style-type: none;
+}
+
+#seoul-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+#seoul-main {
+  position: relative;
+  line-height: 45px;
+}
+
+.seoul-banner-img {
+  width: 1374px;
+  height: 1300px;
+  position: absolute;
+  left: 185px;
+  top: -100px;
+}
+
+.seoul-inpormation-img {
+  position: absolute;
+  top: 463px;
+  left: 200px;
+  width: 1359px;
+  height: 1536px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR&display=swap');
+
+.seoul-inpormation {
+  position: absolute;
+  left: 915px;
+  top: 715px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.seoul-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.seoul-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+.seoul-inpormation-text2 {
+  position: absolute;
+  top: 1200px;
+  left: 250px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.steak {
+  position: absolute;
+  top: 1360px;
+  left: 310px;
+  width: 300px;
+  height: 300px;
+}
+
+.sausages {
+  position: absolute;
+  top: 1360px;
+  left: 730px;
+  width: 300px;
+  height: 300px;
+}
+
+.emmental {
+  position: absolute;
+  top: 1360px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.seoul-food-text1 {
+  position: absolute;
+  top: 1730px;
+  left: 365px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.seoul-food-text2 {
+  position: absolute;
+  top: 1730px;
+  left: 805px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.seoul-food-text3 {
+  position: absolute;
+  top: 1730px;
+  right: -30px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* hangang css */
+.hangang-ul {
+  list-style-type: none;
+}
+
+#hangang-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+#hangang-main {
+  position: relative;
+  line-height: 45px;
+}
+
+
+.hangang-banner-img {
+  position: absolute;
+  left: 200px;
+  width: 1359px;
+  height: 460px;
+}
+
+.hangang-inpormation-img {
+  position: absolute;
+  top: 460px;
+  left: 200px;
+  width: 1359px;
+  height: 1540px;
+}
+
+.hangang-inpormation {
+  position: absolute;
+  left: 800px;
+  top: 650px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.hangang-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.hangang-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+.hangang-inpormation-text2 {
+  position: absolute;
+  top: 1200px;
+  left: 250px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.crab {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1460px;
+  left: 310px;
+}
+
+.orange {
+  position: absolute;
+  top: 1460px;
+  left: 740px;
+  width: 300px;
+}
+
+.camembert {
+  position: absolute;
+  top: 1460px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.hangang-food-text1 {
+  position: absolute;
+  top: 1800px;
+  left: 385px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.hangang-food-text2 {
+  position: absolute;
+  top: 1800px;
+  left: 785px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.hangang-food-text3 {
+  position: absolute;
+  top: 1800px;
+  right: 60px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+
+/* gompyo css */
+.gompyo-ul {
+  list-style-type: none;
+}
+
+#gompyo-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+#gompyo-main {
+  position: relative;
+  color: aliceblue;
+  line-height: 45px;
+}
+
+.gompyo-main-img {
+  background-image: url(/img/beerfood/KakaoTalk_20220516_15490201.png);
+  width: 1380px;
+  height: 1999px;
+  position: absolute;
+}
+
+.gompyo-banner-img {
+  width: 1400px;
+  height: 750px;
+  position: absolute;
+  left: 53px;
+  top: -90px;
+}
+
+.gompyo-impormation-img {
+  top: -200px;
+}
+
+.gompyo-inpormation {
+
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  font-size: 1.5rem;
+}
+
+.gompyo-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.gompyo-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+#beersize {
+  padding-left: 90px;
+}
+
+.gompyo-inpormation-text2 {
+  position: absolute;
+  top: 1300px;
+  left: 250px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.pasta {
+  position: absolute;
+  top: 1300px;
+  left: 210px;
+  width: 300px;
+}
+
+.어묵탕 {
+  position: absolute;
+  top: 1300px;
+  left: 600px;
+  width: 300px;
+}
+
+.shrimp {
+  position: absolute;
+  top: 1300px;
+  right: 80px;
+  width: 300px;
+  height: 300px;
+}
+
+.gompyo-inpormation-text2 {
+  position: absolute;
+  top: 1100px;
+  left: 210px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.gompyo-food-text1 {
+  position: absolute;
+  top: 1650px;
+  left: 240px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.gompyo-food-text2 {
+  position: absolute;
+  top: 1650px;
+  left: 680px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.gompyo-food-text3 {
+  position: absolute;
+  top: 1650px;
+  right: 140px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
