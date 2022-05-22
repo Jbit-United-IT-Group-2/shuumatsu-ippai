@@ -118,7 +118,7 @@
   width: 300px;
 }
 
-.chicken {
+.chicken1 {
   position: absolute;
   top: 1460px;
   right: -50px;
@@ -389,7 +389,7 @@
 .hangang-food-text2 {
   position: absolute;
   top: 1800px;
-  left: 785px;
+  left: 735px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
@@ -400,7 +400,7 @@
 .hangang-food-text3 {
   position: absolute;
   top: 1800px;
-  right: 60px;
+  right: -60px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
@@ -465,6 +465,7 @@
   display: inline;
   color: rgb(255, 252, 252);
 }
+
 #beersize {
   padding-left: 90px;
 }
@@ -535,6 +536,7 @@
   font-weight: 500;
   color: aliceblue;
 }
+
 /* stout css */
 .stout-ul {
   list-style-type: none;
