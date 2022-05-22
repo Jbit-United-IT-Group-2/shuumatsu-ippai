@@ -424,35 +424,32 @@
 
 #gompyo-main {
   position: relative;
-  color: aliceblue;
   line-height: 45px;
 }
 
-.gompyo-main-img {
-  background-image: url(/img/beerfood/KakaoTalk_20220516_15490201.png);
-  width: 1380px;
-  height: 1999px;
-  position: absolute;
-}
 
 .gompyo-banner-img {
-  width: 1400px;
-  height: 750px;
   position: absolute;
-  left: 53px;
+  left: 100px;
   top: -90px;
+  width: 1540px;
+  height: 910px;
 }
 
-.gompyo-impormation-img {
-  top: -200px;
+.gompyo-inpormation-img {
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  width: 1359px;
+  height: 1540px;
 }
 
 .gompyo-inpormation {
-
   position: absolute;
-  left: 400px;
-  top: 550px;
+  left: 600px;
+  top: 850px;
   font-size: 1.5rem;
+  color: aliceblue;
 }
 
 .gompyo-inpormation-text1 {
@@ -468,7 +465,6 @@
   display: inline;
   color: rgb(255, 252, 252);
 }
-
 #beersize {
   padding-left: 90px;
 }
@@ -476,74 +472,315 @@
 .gompyo-inpormation-text2 {
   position: absolute;
   top: 1300px;
-  left: 250px;
+  left: 290px;
   font-size: 4rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
-
+  color: aliceblue;
 }
 
 .pasta {
-  position: absolute;
-  top: 1300px;
-  left: 210px;
   width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1460px;
+  left: 310px;
 }
 
 .어묵탕 {
   position: absolute;
-  top: 1300px;
-  left: 600px;
+  top: 1460px;
+  left: 740px;
   width: 300px;
 }
 
 .shrimp {
   position: absolute;
-  top: 1300px;
-  right: 80px;
+  top: 1460px;
+  right: -50px;
   width: 300px;
   height: 300px;
 }
 
-.gompyo-inpormation-text2 {
-  position: absolute;
-  top: 1100px;
-  left: 210px;
-  font-size: 4rem;
-  font-family: omnigothic, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-
-}
-
 .gompyo-food-text1 {
   position: absolute;
-  top: 1650px;
-  left: 240px;
+  top: 1800px;
+  left: 345px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
+  color: aliceblue;
 }
 
 .gompyo-food-text2 {
   position: absolute;
-  top: 1650px;
-  left: 680px;
+  top: 1800px;
+  left: 820px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
-
+  color: aliceblue;
 }
 
 .gompyo-food-text3 {
   position: absolute;
-  top: 1650px;
-  right: 140px;
+  top: 1800px;
+  right: 0px;
   font-size: 3rem;
   font-family: omnigothic, sans-serif;
   font-style: normal;
   font-weight: 500;
+  color: aliceblue;
+}
+/* stout css */
+.stout-ul {
+  list-style-type: none;
+}
+
+#stout-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+#stout-main {
+  position: relative;
+  line-height: 45px;
+}
+
+
+.stout-banner-img {
+  position: absolute;
+  left: 200px;
+  width: 1461px;
+  height: 460px;
+  object-fit: cover;
+}
+
+
+
+.stout-inpormation-img {
+  position: absolute;
+  top: 460px;
+  left: 150px;
+  width: 1359px;
+  height: 1540px;
+}
+
+.stout-inpormation {
+  position: absolute;
+  left: 800px;
+  top: 920px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.stout-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.stout-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+.stout-inpormation-text2 {
+  position: absolute;
+  top: 1300px;
+  left: 300px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.chicken {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1460px;
+  left: 310px;
+}
+
+.French-fries {
+  position: absolute;
+  top: 1460px;
+  left: 740px;
+  width: 300px;
+}
+
+.sheepp {
+  position: absolute;
+  top: 1460px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.stout-food-text1 {
+  position: absolute;
+  top: 1800px;
+  left: 385px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.stout-food-text2 {
+  position: absolute;
+  top: 1800px;
+  left: 785px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.stout-food-text3 {
+  position: absolute;
+  top: 1800px;
+  right: 60px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* TERRA css */
+.terra-ul {
+  list-style-type: none;
+}
+
+#terra-nav {
+  width: 100px;
+  height: 1990px;
+  background-color: #f6c000;
+  position: fixed;
+  z-index: 10;
+}
+
+#terra-main {
+  position: relative;
+  line-height: 45px;
+}
+
+
+.terra-banner-img {
+  position: absolute;
+  left: 200px;
+  width: 1359px;
+  height: 460px;
+}
+
+.terra-inpormation-img {
+  position: absolute;
+  top: 460px;
+  left: 200px;
+  width: 1359px;
+  height: 1540px;
+}
+
+.terra-inpormation {
+  position: absolute;
+  left: 860px;
+  top: 650px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.terra-inpormation-text1 {
+  margin: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.terra-another-font {
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  color: rgb(255, 252, 252);
+}
+
+.terra-inpormation-text2 {
+  position: absolute;
+  top: 1250px;
+  left: 300px;
+  font-size: 4rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.dried {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1460px;
+  left: 310px;
+}
+
+.nachos {
+  position: absolute;
+  top: 1460px;
+  left: 740px;
+  width: 300px;
+  height: 300px;
+}
+
+.fish {
+  position: absolute;
+  top: 1460px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+}
+
+.terra-food-text1 {
+  position: absolute;
+  top: 1800px;
+  left: 355px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.terra-food-text2 {
+  position: absolute;
+  top: 1800px;
+  left: 850px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.terra-food-text3 {
+  position: absolute;
+  top: 1800px;
+  right: 80px;
+  font-size: 3rem;
+  font-family: omnigothic, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
 }
