@@ -9,9 +9,9 @@
 }
 
 #wrap {
-  margin: 0 auto;
-  padding: 0 auto;
-  width: 1400px;
+  margin: 0;
+  padding: 0;
+  width: 1378px;
   height: 2100px;
 }
 
@@ -25,7 +25,7 @@
 
 #beer-main-nav {
   position: absolute;
-  top: 680px;
+  top: 580px;
   left: 140px;
   width: 100%;
   height: 50px;
@@ -52,7 +52,12 @@
   margin: 0 auto;
   display: inline-block;
   position: relative;
-  left: 170px;
+  left: 200px;
+}
+
+#beer-main-nav a {
+  text-decoration: none;
+  color: black;
 }
 
 #main-img {
@@ -76,434 +81,25 @@
   opacity: 0.8;
 }
 
-/* cass css */
-.cass-ul {
+ul {
   list-style-type: none;
 }
 
-#cass-nav {
+nav {
   width: 100px;
   height: 100%;
   background-color: #ffc400;
   position: fixed;
-  left: 100px;
+  left: 90px;
   z-index: 10;
 }
 
-#cass-main {
-  position: relative;
-  line-height: 45px;
-}
-
-
-.cass-banner-img {
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  left: 240px;
-  top: -100px;
-}
-
-.cass-inpormation-img {
-  position: absolute;
-  top: 700px;
-  left: 240px;
-  width: 100%;
-  height: 1608px;
-}
-
-.cass-inpormation {
-  position: absolute;
-  left: 910px;
-  top: 1050px;
-  font-size: 1.5rem;
-  color: aliceblue;
-}
-
-.cass-inpormation-text1 {
+.inpormation-text1 {
   margin: 30px;
   font-family: 'Nanum Myeongjo', serif;
 }
 
-.cass-beersize {
-  padding-left: 90px;
-}
-
-.cass-another-font {
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  color: rgb(255, 252, 252);
-}
-
-.cass-inpormation-text2 {
-  position: absolute;
-  top: 1550px;
-  left: 350px;
-  font-size: 4rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.sheep {
-  position: absolute;
-  top: 1700px;
-  left: 350px;
-  width: 300px;
-}
-
-.mektea {
-  position: absolute;
-  top: 1700px;
-  left: 750px;
-  width: 300px;
-}
-
-.chicken1 {
-  position: absolute;
-  top: 1700px;
-  right: -55px;
-  width: 300px;
-  height: 300px;
-}
-
-.cass-food-text1 {
-  position: absolute;
-  top: 2040px;
-  left: 415px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.cass-food-text2 {
-  position: absolute;
-  top: 2040px;
-  left: 795px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.cass-food-text3 {
-  position: absolute;
-  top: 2040px;
-  right: 55px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-/* seoul css */
-.seoul-ul {
-  list-style-type: none;
-}
-
-#seoul-nav {
-  width: 100px;
-  height: 1990px;
-  background-color: #ffc400;
-  position: fixed;
-  z-index: 10;
-}
-
-#seoul-main {
-  position: relative;
-  line-height: 45px;
-}
-
-.seoul-banner-img {
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  left: 240px;
-  top: 0px;
-}
-
-.seoul-inpormation-img {
-  position: absolute;
-  top: 725px;
-  left: 240px;
-  width: 100%;
-  height: 1583px;
-}
-
-
-
-.seoul-inpormation {
-  position: absolute;
-  left: 935px;
-  top: 1000px;
-  font-size: 1.5rem;
-  color: aliceblue;
-}
-
-.seoul-inpormation-text1 {
-  margin: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-.seoul-another-font {
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  color: rgb(255, 252, 252);
-}
-
-.seoul-inpormation-text2 {
-  position: absolute;
-  top: 1570px;
-  left: 350px;
-  font-size: 4rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.steak {
-  position: absolute;
-  top: 1710px;
-  left: 350px;
-  width: 300px;
-  height: 300px;
-}
-
-.sausages {
-  position: absolute;
-  top: 1710px;
-  left: 755px;
-  width: 300px;
-  height: 300px;
-}
-
-.emmental {
-  position: absolute;
-  top: 1710px;
-  right: -50px;
-  width: 300px;
-  height: 300px;
-}
-
-.seoul-food-text1 {
-  position: absolute;
-  top: 2080px;
-  left: 405px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.seoul-food-text2 {
-  position: absolute;
-  top: 2080px;
-  left: 835px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.seoul-food-text3 {
-  position: absolute;
-  top: 2080px;
-  right: -25px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-/* hangang css */
-.hangang-ul {
-  list-style-type: none;
-}
-
-#hangang-nav {
-  width: 100px;
-  height: 1990px;
-  background-color: #ffc400;
-  position: fixed;
-  z-index: 10;
-}
-
-#hangang-main {
-  position: relative;
-  line-height: 45px;
-}
-
-
-.hangang-banner-img {
-  position: absolute;
-  left: 240px;
-  width: 100%;
-  height: 700px;
-}
-
-.hangang-inpormation-img {
-  position: absolute;
-  top: 730px;
-  left: 240px;
-  width: 100%;
-  height: 1578px;
-}
-
-.hangang-inpormation {
-  position: absolute;
-  left: 850px;
-  top: 950px;
-  font-size: 1.5rem;
-  color: aliceblue;
-}
-
-.hangang-inpormation-text1 {
-  margin: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-.hangang-another-font {
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  color: rgb(255, 252, 252);
-}
-
-.hangang-inpormation-text2 {
-  position: absolute;
-  top: 1550px;
-  left: 350px;
-  font-size: 4rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.crab {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 1700px;
-  left: 350px;
-}
-
-.orange {
-  position: absolute;
-  top: 1700px;
-  left: 750px;
-  width: 300px;
-}
-
-.camembert {
-  position: absolute;
-  top: 1700px;
-  right: -50px;
-  width: 300px;
-  height: 300px;
-}
-
-.hangang-food-text1 {
-  position: absolute;
-  top: 2040px;
-  left: 420px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.hangang-food-text2 {
-  position: absolute;
-  top: 2040px;
-  left: 755px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.hangang-food-text3 {
-  position: absolute;
-  top: 2040px;
-  right: -46px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-
-/* gompyo css */
-.gompyo-ul {
-  list-style-type: none;
-}
-
-#gompyo-nav {
-  width: 100px;
-  height: 1990px;
-  background-color: #ffc400;
-  position: fixed;
-  z-index: 10;
-}
-
-#gompyo-main {
-  position: relative;
-  line-height: 45px;
-}
-
-
-.gompyo-banner-img {
-  position: absolute;
-  left: 240px;
-  top: -10px;
-  width: 100%;
-  height: 865px;
-}
-
-.gompyo-inpormation-img {
-  position: absolute;
-  top: 700px;
-  left: 240px;
-  width: 100%;
-  height: 1610px;
-}
-
-.gompyo-inpormation {
-  position: absolute;
-  left: 600px;
-  top: 1130px;
-  font-size: 1.5rem;
-  color: aliceblue;
-}
-
-.gompyo-inpormation-text1 {
-  margin: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-  ;
-}
-
-.gompyo-another-font {
+.another-font {
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
   font-weight: 600;
@@ -516,136 +112,43 @@
   padding-left: 90px;
 }
 
-.gompyo-inpormation-text2 {
-  position: absolute;
-  top: 1500px;
-  left: 360px;
-  font-size: 4rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.pasta {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 1660px;
-  left: 360px;
-}
-
-.어묵탕 {
-  position: absolute;
-  top: 1660px;
-  left: 755px;
-  width: 300px;
-}
-
-.shrimp {
-  position: absolute;
-  top: 1660px;
-  right: -50px;
-  width: 300px;
-  height: 300px;
-}
-
-.gompyo-food-text1 {
-  position: absolute;
-  top: 2020px;
-  left: 390px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.gompyo-food-text2 {
-  position: absolute;
-  top: 2020px;
-  left: 835px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-.gompyo-food-text3 {
-  position: absolute;
-  top: 2020px;
-  right: 5px;
-  font-size: 3rem;
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 500;
-  color: aliceblue;
-}
-
-/* stout css */
-.stout-ul {
-  list-style-type: none;
-}
-
-#stout-nav {
-  width: 100px;
-  height: 1990px;
-  background-color: #ffc400;
-  position: fixed;
-  z-index: 10;
-}
-
-#stout-main {
+/* -------------------------------------------CASS css--------------------------------------------------- */
+#cass-main {
   position: relative;
   line-height: 45px;
 }
 
-
-.stout-banner-img {
-  position: absolute;
-  left: 230px;
-  top: 0px;
+.cass-banner-img {
+  background-image: url(../img/beerpart/CASS-BANNER.jpg);
+  background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
+  height: 800px;
+  position: absolute;
+  left: 240px;
 }
 
-
-
-.stout-inpormation-img {
+.cass-inpormation-img {
+  background-image: url(../img/beerpart/CASS-INPO2.png);
+  background-repeat: no-repeat;
   position: absolute;
-  top: 720px;
-  left: 130px;
+  top: 600px;
+  left: 240px;
   width: 100%;
-  height: 1589px;
+  height: 1708px;
 }
 
-.stout-inpormation {
+.cass-inpormation {
   position: absolute;
-  left: 810px;
-  top: 1020px;
-  font-size: 1.5rem;
+  left: 910px;
+  top: 1030px;
+  font-size: 1.4rem;
   color: aliceblue;
 }
 
-.stout-inpormation-text1 {
-  margin: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-.stout-another-font {
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  color: rgb(255, 252, 252);
-}
-
-.stout-inpormation-text2 {
+.cass-inpormation-text2 {
   position: absolute;
-  top: 1470px;
-  left: 300px;
+  top: 1600px;
+  left: 410px;
   font-size: 4rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -653,33 +156,32 @@
   color: aliceblue;
 }
 
-.chicken {
+.sheep {
+  position: absolute;
+  top: 1750px;
+  left: 410px;
+  width: 300px;
+}
+
+.mektea {
+  position: absolute;
+  top: 1750px;
+  left: 810px;
+  width: 300px;
+}
+
+.chicken1 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
   width: 300px;
   height: 300px;
-  position: absolute;
-  top: 1630px;
-  left: 345px;
 }
 
-.French-fries {
+.cass-food-text1 {
   position: absolute;
-  top: 1630px;
-  left: 745px;
-  width: 300px;
-}
-
-.sheepp {
-  position: absolute;
-  top: 1630px;
-  right: -50px;
-  width: 300px;
-  height: 300px;
-}
-
-.stout-food-text1 {
-  position: absolute;
-  top: 1980px;
-  left: 445px;
+  top: 2090px;
+  left: 490px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -687,10 +189,10 @@
   color: aliceblue;
 }
 
-.stout-food-text2 {
+.cass-food-text2 {
   position: absolute;
-  top: 1980px;
-  left: 805px;
+  top: 2090px;
+  left: 865px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -698,10 +200,10 @@
   color: aliceblue;
 }
 
-.stout-food-text3 {
+.cass-food-text3 {
   position: absolute;
-  top: 1980px;
-  right: 30px;
+  top: 2090px;
+  right: -20px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -709,26 +211,15 @@
   color: aliceblue;
 }
 
-/* TERRA css */
-.terra-ul {
-  list-style-type: none;
-}
-
-#terra-nav {
-  width: 100px;
-  height: 1990px;
-  background-color: #ffc400;
-  position: fixed;
-  z-index: 10;
-}
-
+/* ----------------------------------------------TERRA css------------------------------------------------------ */
 #terra-main {
   position: relative;
   line-height: 45px;
 }
 
-
 .terra-banner-img {
+  background-image: url(../img/beerpart/TERRA-BANNER.png);
+  background-repeat: no-repeat;
   position: absolute;
   left: 240px;
   width: 100%;
@@ -736,38 +227,26 @@
 }
 
 .terra-inpormation-img {
+  background-image: url(../img/beerpart/TERRA-INPO.png);
+  background-repeat: no-repeat;
   position: absolute;
-  top: 720px;
+  top: 620px;
   left: 240px;
   width: 100%;
-  height: 1595px;
+  height: 1687px;
 }
 
 .terra-inpormation {
   position: absolute;
   left: 900px;
-  top: 1000px;
+  top: 930px;
   font-size: 1.5rem;
   color: aliceblue;
 }
 
-.terra-inpormation-text1 {
-  margin: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-.terra-another-font {
-  font-family: 'Nanum Myeongjo', serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  color: rgb(255, 252, 252);
-}
-
 .terra-inpormation-text2 {
   position: absolute;
-  top: 1500px;
+  top: 1600px;
   left: 355px;
   font-size: 4rem;
   font-family: 'Nanum Myeongjo', serif;
@@ -780,30 +259,30 @@
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 1660px;
-  left: 355px;
+  top: 1760px;
+  left: 405px;
 }
 
 .nachos {
   position: absolute;
-  top: 1660px;
-  left: 753px;
+  top: 1760px;
+  left: 803px;
   width: 300px;
   height: 300px;
 }
 
 .fish {
   position: absolute;
-  top: 1660px;
-  right: -50px;
+  top: 1760px;
+  right: -125px;
   width: 300px;
   height: 300px;
 }
 
 .terra-food-text1 {
   position: absolute;
-  top: 2020px;
-  left: 410px;
+  top: 2130px;
+  left: 460px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -813,8 +292,8 @@
 
 .terra-food-text2 {
   position: absolute;
-  top: 2020px;
-  left: 850px;
+  top: 2130px;
+  left: 905px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
@@ -824,8 +303,413 @@
 
 .terra-food-text3 {
   position: absolute;
-  top: 2020px;
-  right: 80px;
+  top: 2130px;
+  right: -5px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* ----------------------------------------------------STOUT css---------------------------------------------------------- */
+#stout-main {
+  position: relative;
+  line-height: 45px;
+}
+
+.stout-banner-img {
+  background-image: url(../img/beerpart/STOUT-BANNER.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 240px;
+  top: 0px;
+  width: 100%;
+  height: 700px;
+}
+
+.stout-inpormation-img {
+  background-image: url(../img/beerpart/STOUT-INPO.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 620px;
+  left: 240px;
+  width: 100%;
+  height: 1689px;
+}
+
+.stout-inpormation {
+  position: absolute;
+  left: 905px;
+  top: 1020px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.stout-inpormation-text2 {
+  position: absolute;
+  top: 1600px;
+  left: 415px;
+  font-size: 4rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.chicken {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1760px;
+  left: 415px;
+}
+
+.French-fries {
+  position: absolute;
+  top: 1760px;
+  left: 805px;
+  width: 300px;
+}
+
+.sheepp {
+  position: absolute;
+  top: 1760px;
+  right: -120px;
+  width: 300px;
+  height: 300px;
+}
+
+.stout-food-text1 {
+  position: absolute;
+  top: 2130px;
+  left: 505px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.stout-food-text2 {
+  position: absolute;
+  top: 2130px;
+  left: 865px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.stout-food-text3 {
+  position: absolute;
+  top: 2130px;
+  right: -40px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* ------------------------------------------------------GONPYO css------------------------------------------------------- */
+#gompyo-main {
+  position: relative;
+  line-height: 45px;
+}
+
+.gompyo-banner-img {
+  background-image: url(../img/beerpart/GOMPYO-BANNER.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 240px;
+  width: 100%;
+  height: 650px;
+}
+
+.gompyo-inpormation-img {
+  background-image: url(../img/beerpart/GOMPYO-INPO.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 600px;
+  left: 240px;
+  width: 100%;
+  height: 1708px;
+}
+
+.gompyo-inpormation {
+  position: absolute;
+  left: 500px;
+  top: 450px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.gompyo-inpormation-text2 {
+  position: absolute;
+  top: 1600px;
+  left: 405px;
+  font-size: 4rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.pasta {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1750px;
+  left: 405px;
+}
+
+.어묵탕 {
+  position: absolute;
+  top: 1750px;
+  left: 810px;
+  width: 300px;
+}
+
+.shrimp {
+  position: absolute;
+  top: 1750px;
+  right: -135px;
+  width: 300px;
+  height: 300px;
+}
+
+.gompyo-food-text1 {
+  position: absolute;
+  top: 2110px;
+  left: 435px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.gompyo-food-text2 {
+  position: absolute;
+  top: 2110px;
+  left: 890px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.gompyo-food-text3 {
+  position: absolute;
+  top: 2110px;
+  right: -75px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* --------------------------------------------------SEOUL css-------------------------------------------------------- */
+
+#seoul-main {
+  position: relative;
+  line-height: 45px;
+}
+
+.seoul-banner-img {
+  background-image: url(../img/beerpart/SEOUL-1983\ BANNER2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 00px;
+  left: 240px;
+}
+
+.seoul-inpormation-img {
+  background-image: url(../img/beerpart/SEOUL-1983\ INPO.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 625px;
+  left: 240px;
+  width: 100%;
+  height: 1682px;
+}
+
+.seoul-inpormation {
+  position: absolute;
+  left: 1040px;
+  top: 960px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.seoul-inpormation-text2 {
+  position: absolute;
+  top: 1600px;
+  left: 400px;
+  font-size: 4rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.steak {
+  position: absolute;
+  top: 1740px;
+  left: 400px;
+  width: 300px;
+  height: 300px;
+}
+
+.sausages {
+  position: absolute;
+  top: 1740px;
+  left: 805px;
+  width: 300px;
+  height: 300px;
+}
+
+.emmental {
+  position: absolute;
+  top: 1740px;
+  right: -130px;
+  width: 300px;
+  height: 300px;
+}
+
+.seoul-food-text1 {
+  position: absolute;
+  top: 2120px;
+  left: 455px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.seoul-food-text2 {
+  position: absolute;
+  top: 2120px;
+  left: 885px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.seoul-food-text3 {
+  position: absolute;
+  top: 2120px;
+  right: -105px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+/* -------------------------------------------------------HANGANG css-------------------------------------------------------- */
+#hangang-main {
+  position: relative;
+  line-height: 45px;
+}
+
+.hangang-banner-img {
+  background-image: url(../img/beerpart/HANGANG-BANNER.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -40px;
+  left: 240px;
+  width: 100%;
+  height: 700px;
+}
+
+.hangang-inpormation-img {
+  background-image: url(../img/beerpart/HANGANG-INPO.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 630px;
+  left: 240px;
+  width: 100%;
+  height: 1679px;
+}
+
+.hangang-inpormation {
+  position: absolute;
+  left: 850px;
+  top: 860px;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.hangang-inpormation-text2 {
+  position: absolute;
+  top: 1600px;
+  left: 400px;
+  font-size: 4rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.crab {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1750px;
+  left: 400px;
+}
+
+.orange {
+  position: absolute;
+  top: 1750px;
+  left: 805px;
+  width: 300px;
+}
+
+.camembert {
+  position: absolute;
+  top: 1750px;
+  right: -135px;
+  width: 300px;
+  height: 300px;
+}
+
+.hangang-food-text1 {
+  position: absolute;
+  top: 2110px;
+  left: 475px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.hangang-food-text2 {
+  position: absolute;
+  top: 2120px;
+  left: 815px;
+  font-size: 3rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.hangang-food-text3 {
+  position: absolute;
+  top: 2110px;
+  right: -133px;
   font-size: 3rem;
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
