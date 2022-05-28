@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: sandoll-andante, sans-serif;
+  font-family: sandoll-andante,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -12,7 +12,7 @@ a {
 }
 
 #wrap {
-  width: 100%;
+  width: 1920px;
   height: 100vh;
 }
 
@@ -41,7 +41,7 @@ main {
 .main_banner {
   position: relative;
   width: 50%;
-  height: 100vh;
+  height: 100vh;  
 }
 
 .main_banner:hover .main_copi,
@@ -49,17 +49,16 @@ main {
   transform: translateY(-30px);
 }
 
+
 #to_soju {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/main_page/L.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main_page/L.png');
 }
 #to_soju:hover {
   background-image: url('../img/main_page/L.png');
 }
 
 #to_beer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/main_page/R.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/main_page/R.png');
 }
 
 #to_beer:hover {
