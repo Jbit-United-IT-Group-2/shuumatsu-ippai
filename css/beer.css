@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 0;
 }
 
 #wrap {
@@ -87,13 +88,20 @@ main {
 }
 
 section {
-  width: calc(100% - 190px);
-  height: 100%;
-  margin-left: 190px;
+  width: calc(100vw - 200px);
+  margin-left: 200px;
   position: relative;
 }
 section > img {
   width: 100%;
+  height: 100%;
+}
+
+.banner-section {
+  height: 36vw;
+}
+.info-section {
+  height: 63vw;
 }
 
 .information {
