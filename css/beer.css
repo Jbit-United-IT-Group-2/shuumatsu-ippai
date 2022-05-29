@@ -11,11 +11,32 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #wrap {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+}
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-image: url(../../img/main_page/R.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 100;
+}
+
+nav {
+  width: 100px;
+  height: 100%;
+  background-color: #ffc400;
+  left: 90px;
+  z-index: 10;
+}
+
+.nav-background {
   width: 100%;
 }
 
@@ -23,22 +44,11 @@
   width: 100px;
   height: 85px;
   position: relative;
-  left: -100px;
   top: 10px;
-}
-
-#main-img {
-  background-image: url(../../img/main_page/R.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  position: absolute;
-  left: -100px;
 }
 
 .beer-logo {
   position: relative;
-  top: -90px;
   width: 100px;
   height: 100px;
 }
@@ -71,13 +81,19 @@ ul {
   list-style-type: none;
 }
 
-nav {
-  width: 100px;
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: calc(100% - 190px);
   height: 100%;
-  background-color: #ffc400;
-  position: fixed;
-  left: 90px;
-  z-index: 10;
+  margin-left: 190px;
+  position: relative;
+}
+section > img {
+  width: 100%;
 }
 
 .information {
@@ -89,22 +105,46 @@ nav {
   font-family: 'hite-l';
 }
 
-.information-text2 {
-  top: 1640px;
-  left: 390px;
+/* recommend section  */
+.recommend-section {
+  background-color: #28979d;
+  height: 100vh;
+}
+.recommend-title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
   font-size: 4rem;
   font-family: 'hite-l';
   font-weight: 900;
   color: aliceblue;
 }
 
-/* recommend section  */
-.recommend-section {
-  background-color: #28979d;
+.recommend-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
 }
-.recommend-title {
-  font-size: 4rem;
-  font-family: 'hite-l';
-  font-weight: 900;
+
+.recommend-icon-color {
+  display: none;
+  transition: 0.5s;
+}
+
+.recommend-item:hover .recommend-icon {
+  display: none;
+}
+
+.recommend-item:hover .recommend-icon-color {
+  display: block;
+  transform: scale(1.1);
+}
+
+.recommend-name {
+  text-align: center;
+  font-size: 2.5rem;
   color: aliceblue;
 }
