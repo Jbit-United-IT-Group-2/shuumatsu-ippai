@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'hite';
+  src: url(../font/Harmony_M.ttf);
+}
+
+@font-face {
+  font-family: 'hite-l';
+  src: url(../font/Harmony_L.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main-logo {
+  width: 100px;
+  height: 85px;
+  position: relative;
+  left: -100px;
+  top: 10px;
+}
+
+#main-img {
+  background-image: url(../../img/main_page/R.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  position: absolute;
+  left: -100px;
+}
+
+.beer-logo {
+  position: relative;
+  top: -90px;
+  width: 100px;
+  height: 100px;
+}
+
+.c-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 0, 255));
+}
+
+.t-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.st-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 brown);
+}
+
+.g-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.se-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(255, 0, 0));
+}
+
+.h-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 purple);
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  width: 100px;
+  height: 100%;
+  background-color: #ffc400;
+  position: fixed;
+  left: 90px;
+  z-index: 10;
+}
+
+.information {
+  position: absolute;
+  left: 910px;
+  top: 1030px;
+  font-size: 1.4rem;
+  color: aliceblue;
+  font-family: 'hite-l';
+}
+
+.information-text2 {
+  top: 1640px;
+  left: 390px;
+  font-size: 4rem;
+  font-family: 'hite-l';
+  font-weight: 900;
+  color: aliceblue;
+}
+
+/* recommend section  */
+.recommend-section {
+  background-color: #28979d;
+}
+.recommend-title {
+  font-size: 4rem;
+  font-family: 'hite-l';
+  font-weight: 900;
+  color: aliceblue;
+}
