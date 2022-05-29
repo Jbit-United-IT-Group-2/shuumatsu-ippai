@@ -193,21 +193,21 @@ a {
 
 /* p4 banner img */
 .p4_home {
-  background-image: url('../img/soju_part/deaseon/D_HOME.jpg');
+  background-image: url('../img/soju_part/deaseon/home.jpg');
 }
 
 .p4_about {
-  background-image: url('../img/soju_part/deaseon/D_ABOUT.png');
+  background-image: url('../img/soju_part/deaseon/about.jpg');
   background-position: right center;
 }
 
 .p4_alcohol{
-  background-image: url('../img/soju_part/deaseon/D_ALCOHOL.png');
+  background-image: url('../img/soju_part/deaseon/alcohol.png');
   background-position: right center;
 }
 
 .p4_product {
-  background-image: url('../img/soju_part/deaseon/D_PRODUCT.png');
+  background-image: url('../img/soju_part/deaseon/product.png');
   background-position: right center;
 }
 
