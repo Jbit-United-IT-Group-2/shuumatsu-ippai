@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'hite';
+  src: url(../font/Harmony_M.ttf);
+}
+
+@font-face {
+  font-family: 'hite-l';
+  src: url(../font/Harmony_L.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  margin: 0;
+  padding: 0;
+  width: 1378px;
+  height: 1700px;
+}
+
+.main-logo {
+  width: 100px;
+  height: 85px;
+  position: relative;
+  left: -100px;
+  top: 10px;
+}
+
+#main-img {
+  background-image: url(../../img/main_page/R.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 2208px;
+  position: absolute;
+  left: -100px;
+}
+
+.beer-logo {
+  position: relative;
+  top: -90px;
+  width: 100px;
+  height: 100px;
+}
+
+.c-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 0, 255));
+}
+
+.t-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.st-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 brown);
+}
+
+.g-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.se-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(255, 0, 0));
+}
+
+.h-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 purple);
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  width: 100px;
+  height: 100%;
+  background-color: #FFC400;
+  position: fixed;
+  left: 90px;
+  z-index: 10;
+}
+
+.information {
+  position: absolute;
+  left: 910px;
+  top: 1030px;
+  font-size: 1.4rem;
+  color: aliceblue;
+  font-family: 'hite-l';
+}
+
+#beersize {
+  padding-left: 90px;
+}
+
+main {
+  position: relative;
+  line-height: 45px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 580px;
+  position: absolute;
+  left: 240px;
+}
+
+.information-img {
+  position: absolute;
+  top: 580px;
+  left: 240px;
+  width: 100%;
+  height: 1000px;
+}
+
+.information-text2 {
+  position: absolute;
+  top: 1640px;
+  left: 390px;
+  font-size: 4rem;
+  font-family: 'hite-l';
+  font-weight: 900;
+  color: aliceblue;
+}
+
+/* 한강 */
+.h-information-text1 {
+  width: 450px;
+  position: absolute;
+  top: -40px;
+  left: 75px;
+}
+
+.h-information-text3 {
+  position: absolute;
+  top: 230px;
+  left: 116px;
+}
+
+.h-information-text4 {
+  line-height: 45px;
+  width: 300px;
+  position: absolute;
+  top: 175px;
+  left: 310px;
+}
+
+#h-food {
+  background-color: #c45cb8;
+  width: 100%;
+  height: 629px;
+  position: relative;
+  top: 1580px;
+  left: 240px;
+}
+
+.h-food1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.h-food2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  width: 300px;
+}
+
+.h-food3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  width: 300px;
+  height: 300px;
+}
+
+.h-food-hover1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  width: 300px;
+}
+
+.h-food-hover2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  width: 300px;
+}
+
+.h-food-hover3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  width: 300px;
+
+}
+
+.h-food-hover1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  display: none;
+}
+
+.h-hover1:hover .h-food-hover1 {
+  display: block;
+}
+
+.h-food-hover2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  display: none;
+}
+
+.h-hover2:hover .h-food-hover2 {
+  display: block;
+}
+
+.h-food-hover3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  display: none;
+}
+
+.h-hover3:hover .h-food-hover3 {
+  display: block;
+}
+
+.hangang-food-text1 {
+  position: absolute;
+  top: 2070px;
+  left: 440px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.hangang-food-text2 {
+  position: absolute;
+  top: 2070px;
+  left: 785px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.hangang-food-text3 {
+  position: absolute;
+  top: 2070px;
+  right: -45px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}
