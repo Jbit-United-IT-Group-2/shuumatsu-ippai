@@ -79,6 +79,7 @@ a {
   background-position: left center;
   background-repeat: no-repeat;
   margin-left: 5px;
+  transition : 0.2s;
 }
 
 .soju_logo:hover { 
@@ -88,6 +89,7 @@ a {
 .soju_icon {
   width: 100px;
   height: 100px;
+  transition : 0.2s;
 }
 
 .soju_icon:hover {
