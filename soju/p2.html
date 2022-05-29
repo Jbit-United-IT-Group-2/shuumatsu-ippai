@@ -6,17 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>진로</title>
 
-    <link rel="stylesheet" href="../css/soju.css">
+    <link rel="stylesheet" href="../css/soju.css" />
 
     <script>
-    (function(d) {
-      var config = {
-        kitId: 'auw1psa',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
+      (function (d) {
+        var config = {
+            kitId: 'auw1psa',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
     </script>
   </head>
 
@@ -25,83 +46,108 @@
       <!-- first nav -->
       <section id="soju_menu">
         <div class="soju_nav nav1">
-          <a href="../index.html" class="soju_logo">
-          </a>
+          <a href="../index.html" class="soju_logo"> </a>
         </div>
 
         <!-- second nav -->
         <div class="soju_nav nav2">
           <div class="soju_icon">
             <a href="p1.html">
-              <img src="../img/nav_icon/soju/CHAMISEUL.png" alt="참이슬 버튼">
+              <img src="../img/nav_icon/soju/CHAMISEUL.png" alt="참이슬 버튼" />
             </a>
           </div>
           <div class="soju_icon">
             <a href="p2.html">
-              <img src="../img/nav_icon/soju/JINRO.png" alt="진로 버튼">
+              <img src="../img/nav_icon/soju/JINRO.png" alt="진로 버튼" />
             </a>
           </div>
           <div class="soju_icon">
             <a href="p3.html">
-              <img src="../img/nav_icon/soju/CHEOUMCHEORUM.png" alt="처음처럼 버튼">
+              <img
+                src="../img/nav_icon/soju/CHEOUMCHEORUM.png"
+                alt="처음처럼 버튼"
+              />
             </a>
           </div>
           <div class="soju_icon">
             <a href="p4.html">
-              <img src="../img/nav_icon/soju/DAESON.png" alt="대선 버튼">
+              <img src="../img/nav_icon/soju/DAESON.png" alt="대선 버튼" />
             </a>
           </div>
           <div class="soju_icon">
             <a href="p5.html">
-              <img src="../img/nav_icon/soju/HWAYO.png" alt="화요 버튼">
+              <img src="../img/nav_icon/soju/HWAYO.png" alt="화요 버튼" />
             </a>
           </div>
           <div class="soju_icon">
             <a href="p6.html">
-              <img src="../img/nav_icon/soju/WONSOJU.png" alt="원소주 버튼">
+              <img src="../img/nav_icon/soju/WONSOJU.png" alt="원소주 버튼" />
             </a>
           </div>
         </div>
       </section>
 
-    <main>
-      <!-- main header section -->
-      <section id="soju_main_header">
-        <div>
-        <ul>
-          <li>
-            <a href="#p2_home">HOME</a>
-          </li>
-          <li>
-            <a href="#p2_about">ABOUT</a>
-          </li>
-          <li>
-            <a href="#p2_alcohol">ALCOHOL</a>
-          </li>
-          <li>
-            <a href="#p2_product">PRODUCT</a>
-          </li>
-        </ul>
-      </div>
-      </section>
+      <main>
+        <!-- main header section -->
+        <section id="soju_main_header">
+          <div>
+            <ul>
+              <li>
+                <a href="#p2_home">HOME</a>
+              </li>
+              <li>
+                <a href="#p2_about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#p2_alcohol">ALCOHOL</a>
+              </li>
+              <li>
+                <a href="#p2_product">PRODUCT</a>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <!-- main section -->
-      <section id="p2_home">
-        <div class="soju_head p2_home"></div>
-      </section>
+        <!-- main section -->
+        <section id="p2_home">
+          <div class="soju_head p2_home"></div>
+        </section>
 
-      <section id="p2_about">
-        <div class="soju_mid p2_about"></div>
-      </section>
+        <section id="p2_about">
+          <div class="soju_mid p2_about"></div>
+        </section>
 
-      <section id="p2_alcohol">
-        <div class="soju_bottom p2_alcohol"></div>
-      </section>
+        <section id="p2_alcohol">
+          <div class="soju_bottom p2_alcohol"></div>
+        </section>
 
-      <section id="p2_product">
-        <div class="soju_bottom p2_product"></div>
-      </section>
-    </main>
-  </div>
+        <section id="p2_product">
+          <div class="soju_bottom p2_product">
+            <div class="product_table_position p2_table_position">
+              <span>PRODUCT</span>
+              <table class="product_table">
+                <tbody>
+                  <tr>
+                    <td style="border-left: none">병</td>
+                    <td colspan="4">360ml</td>
+                  </tr>
+                  <tr>
+                    <td style="border-left: none">팩</td>
+                    <td colspan="4">160ml</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="border-left: none">페트</td>
+                    <td>400ml</td>
+                  </tr>
+                  <tr>
+                    <td>640ml</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
