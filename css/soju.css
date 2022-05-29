@@ -81,9 +81,17 @@ a {
   margin-left: 5px;
 }
 
+.soju_logo:hover { 
+ background-image: url('../img/logo/LOGO\ COLOR\ \(2022.05.14.\).png');  
+}
+
 .soju_icon {
   width: 100px;
   height: 100px;
+}
+
+.soju_icon:hover {
+  transform: translateY(-7px); 
 }
 
 /* main header layout */
