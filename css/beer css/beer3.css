@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'hite';
+  src: url(../font/Harmony_M.ttf);
+}
+
+@font-face {
+  font-family: 'hite-l';
+  src: url(../font/Harmony_L.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  margin: 0;
+  padding: 0;
+  width: 1378px;
+  height: 1700px;
+}
+
+.main-logo {
+  width: 100px;
+  height: 85px;
+  position: relative;
+  left: -100px;
+  top: 10px;
+}
+
+#main-img {
+  background-image: url(../../img/main_page/R.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 2208px;
+  position: absolute;
+  left: -100px;
+}
+
+.beer-logo {
+  position: relative;
+  top: -90px;
+  width: 100px;
+  height: 100px;
+}
+
+.c-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 0, 255));
+}
+
+.t-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.st-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 brown);
+}
+
+.g-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+}
+
+.se-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 rgb(255, 0, 0));
+}
+
+.h-beer-logo:hover {
+  filter: opacity(1) drop-shadow(0 0 purple);
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  width: 100px;
+  height: 100%;
+  background-color: #FFC400;
+  position: fixed;
+  left: 90px;
+  z-index: 10;
+}
+
+.information {
+  position: absolute;
+  left: 910px;
+  top: 1030px;
+  font-size: 1.4rem;
+  color: aliceblue;
+  font-family: 'hite-l';
+}
+
+#beersize {
+  padding-left: 90px;
+}
+
+main {
+  position: relative;
+  line-height: 45px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 580px;
+  position: absolute;
+  left: 240px;
+}
+
+.information-img {
+  position: absolute;
+  top: 580px;
+  left: 240px;
+  width: 100%;
+  height: 1000px;
+}
+
+.information-text2 {
+  position: absolute;
+  top: 1640px;
+  left: 390px;
+  font-size: 4rem;
+  font-family: 'hite-l';
+  font-weight: 900;
+  color: aliceblue;
+}
+
+/* 스타우트 */
+.st-information-text1 {
+  width: 400px;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+}
+
+.st-information-text3 {
+  position: absolute;
+  top: 220px;
+  left: 103px;
+}
+
+.st-information-text4 {
+  line-height: 46px;
+  width: 400px;
+  position: absolute;
+  top: 165px;
+  left: 300px;
+}
+
+#st-food {
+  background-color: #8f6942;
+  width: 100%;
+  height: 629px;
+  position: relative;
+  top: 1580px;
+  left: 240px;
+}
+
+.st-food1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.st-food2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  width: 300px;
+}
+
+.st-food3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  width: 300px;
+  height: 300px;
+}
+
+.st-food-hover1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  width: 300px;
+}
+
+.st-food-hover2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  width: 300px;
+}
+
+.st-food-hover3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  width: 300px;
+
+}
+
+.st-food-hover1 {
+  position: absolute;
+  top: 1750px;
+  left: 360px;
+  display: none;
+}
+
+.st-hover1:hover .st-food-hover1 {
+  display: block;
+}
+
+.st-food-hover2 {
+  position: absolute;
+  top: 1750px;
+  left: 750px;
+  display: none;
+}
+
+.st-hover2:hover .st-food-hover2 {
+  display: block;
+}
+
+.st-food-hover3 {
+  position: absolute;
+  top: 1750px;
+  right: -125px;
+  display: none;
+}
+
+.st-hover3:hover .st-food-hover3 {
+  display: block;
+}
+
+.stout-food-text1 {
+  position: absolute;
+  top: 2070px;
+  left: 480px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.stout-food-text2 {
+  position: absolute;
+  top: 2070px;
+  left: 837px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.stout-food-text3 {
+  position: absolute;
+  top: 2065px;
+  right: -30px;
+  font-size: 3rem;
+  font-family: 'hite-l';
+  font-weight: 600;
+  color: aliceblue;
+}

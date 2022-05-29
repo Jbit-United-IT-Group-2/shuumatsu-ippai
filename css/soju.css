@@ -41,7 +41,7 @@ a {
 
 #wrap {
   width: 100%;
-  height: 2980px;
+  height: 3030px;
 }
 
 /* nav layout */
@@ -53,7 +53,7 @@ a {
   z-index: 10;
 }
 
-.soju_nav {
+.soju_nav{
   position: absolute;
   width: 100px;
   height: 100%;
@@ -67,7 +67,7 @@ a {
 }
 
 .nav2 {
-  background-color: #4d7353;
+  background-color: #4D7353;
 }
 
 .soju_logo {
@@ -123,7 +123,7 @@ a {
 }
 
 .soju_mid {
-  font-family: sandoll-myeongjoneo1, sans-serif;
+  margin-top: 50px;
   height: 800px;
   background-position: left center;
   background-repeat: no-repeat;
@@ -131,7 +131,6 @@ a {
 }
 
 .soju_bottom {
-  font-family: sandoll-myeongjoneo1, sans-serif;
   height: 800px;
   background-position: left center;
   background-repeat: no-repeat;
@@ -141,7 +140,7 @@ a {
 /* p1 banner img */
 .p1_home {
   background-image: url('../img/soju_part/fresh/home.png');
-  background-position: center top;
+  background-position: center center;
 }
 
 .p1_about {
@@ -149,7 +148,7 @@ a {
   background-image: url('../img/soju_part/fresh/about.png');
 }
 
-.p1_alcohol {
+.p1_alcohol{
   height: 850px;
   background-image: url('../img/soju_part/fresh/alcohol.png');
 }
@@ -167,7 +166,7 @@ a {
   background-image: url('../img/soju_part/jinro/ABOUT.png');
 }
 
-.p2_alcohol {
+.p2_alcohol{
   background-image: url('../img/soju_part/jinro/alcohol.png');
 }
 
@@ -184,7 +183,7 @@ a {
   background-image: url('../img/soju_part/cheoum/about.png');
 }
 
-.p3_alcohol {
+.p3_alcohol{
   background-image: url('../img/soju_part/cheoum/alcohol.png');
 }
 
@@ -194,21 +193,21 @@ a {
 
 /* p4 banner img */
 .p4_home {
-  background-image: url('../img/soju_part/deaseon/home.jpg');
+  background-image: url('../img/soju_part/deaseon/D_HOME.jpg');
 }
 
 .p4_about {
-  background-image: url('../img/soju_part/deaseon/about.jpg');
+  background-image: url('../img/soju_part/deaseon/D_ABOUT.png');
   background-position: right center;
 }
 
-.p4_alcohol {
-  background-image: url('../img/soju_part/deaseon/alcohol.png');
+.p4_alcohol{
+  background-image: url('../img/soju_part/deaseon/D_ALCOHOL.png');
   background-position: right center;
 }
 
 .p4_product {
-  background-image: url('../img/soju_part/deaseon/product.png');
+  background-image: url('../img/soju_part/deaseon/D_PRODUCT.png');
   background-position: right center;
 }
 
@@ -222,7 +221,7 @@ a {
   background-position: right center;
 }
 
-.p5_alcohol {
+.p5_alcohol{
   background-image: url('../img/soju_part/hwayo/alcohol.png');
   background-position: right center;
 }
@@ -241,7 +240,7 @@ a {
   background-image: url('../img/soju_part/wonsoju/about.jpg');
 }
 
-.p6_alcohol {
+.p6_alcohol{
   background-image: url('../img/soju_part/wonsoju/alcohol.jpg');
 }
 
