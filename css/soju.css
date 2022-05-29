@@ -194,11 +194,12 @@ a {
 /* p4 banner img */
 .p4_home {
   background-image: url('../img/soju_part/deaseon/home.jpg');
+  background-position: left;
 }
 
 .p4_about {
   background-image: url('../img/soju_part/deaseon/about.jpg');
-  background-position: right center;
+  background-position: right;
 }
 
 .p4_alcohol{
@@ -213,11 +214,11 @@ a {
 
 /* p5 banner img */
 .p5_home {
-  background-image: url('../img/soju_part/hwayo/home.png');
+  background-image: url('../img/soju_part/hwayo/home.jpg');
 }
 
 .p5_about {
-  background-image: url('../img/soju_part/hwayo/about.png');
+  background-image: url('../img/soju_part/hwayo/about.jpg');
   background-position: right center;
 }
 
