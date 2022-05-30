@@ -112,8 +112,25 @@ section > img {
 
 /* recommend section  */
 .recommend-section {
-  background-color: #28979d;
   height: 100vh;
+}
+#p1-recommend {
+  background-color: #28979d;
+}
+#p2-recommend {
+  background-color: #2b8f19;
+}
+#p3-recommend {
+  background-color: #8f6942;
+}
+#p4-recommend {
+  background-color: #48b337;
+}
+#p5-recommend {
+  background-color: #b34038;
+}
+#p6-recommend {
+  background-color: #c45cb8;
 }
 .recommend-title {
   position: absolute;
@@ -145,7 +162,6 @@ section > img {
 
 .recommend-item:hover .recommend-icon-color {
   display: block;
-  transform: scale(1.1);
 }
 
 .recommend-name {
