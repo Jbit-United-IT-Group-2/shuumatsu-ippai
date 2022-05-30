@@ -24,8 +24,8 @@ header {
 }
 
 .main_logo {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   background-image: url('../img/logo/LOGO_WHITE.png');
   background-repeat: no-repeat;
   background-size: contain;
