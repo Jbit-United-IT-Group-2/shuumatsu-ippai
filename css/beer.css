@@ -15,9 +15,6 @@
   border: 0;
 }
 
-#wrap {
-  width: 100%;
-}
 header {
   position: fixed;
   display: flex;
