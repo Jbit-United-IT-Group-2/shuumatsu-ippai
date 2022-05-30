@@ -158,7 +158,9 @@ section > img {
   height: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10%;
 }
 
 .recommend-icon,
