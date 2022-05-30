@@ -52,27 +52,27 @@ nav {
 }
 
 .c-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 rgb(0, 0, 255));
+  filter: opacity(0.5) drop-shadow(0 0 rgb(0, 0, 255));
 }
 
 .t-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+  filter: opacity(0.5) drop-shadow(0 0 rgb(0, 255, 0));
 }
 
 .st-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 brown);
+  filter: opacity(0.5) drop-shadow(0 0 brown);
 }
 
 .g-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 rgb(0, 255, 0));
+  filter: opacity(0.5) drop-shadow(0 0 rgb(0, 255, 0));
 }
 
 .se-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 rgb(255, 0, 0));
+  filter: opacity(0.5) drop-shadow(0 0 rgb(255, 0, 0));
 }
 
 .h-beer-logo:hover {
-  filter: opacity(1) drop-shadow(0 0 purple);
+  filter: opacity(0.5) drop-shadow(0 0 purple);
 }
 
 ul {
@@ -115,29 +115,29 @@ section > img {
   height: 100vh;
 }
 #p1-recommend {
-  background-color: #28979d;
+  background: linear-gradient(#0c195c, #102382, #1937ce);
 }
 #p2-recommend {
-  background-color: #2b8f19;
+  background: linear-gradient(#000000, #104615, #041304);
 }
 #p3-recommend {
-  background-color: #8f6942;
+  background: linear-gradient(#130907, #391b15, #853f31);
 }
 #p4-recommend {
-  background-color: #48b337;
+  background: linear-gradient(#017840, #019e54, #01ea7c);
 }
 #p5-recommend {
-  background-color: #b34038;
+  background: linear-gradient(#000000, #7b7b7b, #c7c7c7);
 }
 #p6-recommend {
-  background-color: #c45cb8;
+  background: linear-gradient(#8a719a, #ac8dc0, #e4bbff);
 }
 .recommend-title {
   position: absolute;
   top: 5%;
   left: 5%;
   font-size: 4rem;
-  font-family: 'hite-l';
+  font-family: 'Jua', sans-serif;
   font-weight: 900;
   color: aliceblue;
 }
@@ -147,8 +147,24 @@ section > img {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 90%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.recommend-item {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.recommend-icon,
+.recommend-icon-color {
+  width: 100%;
+  height: 90%;
 }
 
 .recommend-icon-color {
@@ -167,5 +183,6 @@ section > img {
 .recommend-name {
   text-align: center;
   font-size: 2.5rem;
+  font-family: 'Jua', sans-serif;
   color: aliceblue;
 }
