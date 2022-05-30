@@ -20,7 +20,7 @@ header {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  background-image: url(../../img/main_page/R.png);
+  background-image: url(../img/main_page/R.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 100;
